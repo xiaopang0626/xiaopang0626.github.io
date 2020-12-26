@@ -351,7 +351,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "12/26/2020 20:00:00")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -521,7 +521,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "el": x,
                     "appId": "MT6OrtOPFCYKO24dSNoeKvkl-gzGzoHsz",
                     "appKey": "IyJmSAeFw3W3uOUefYvMaGot",
-                    "placeholder": "在这里评论吧！填写邮箱可以获得 Gravatar 头像和回复通知哦",
+                    "placeholder": "在这里评论吧！请填写邮箱以便我可以回复您.",
                     "requiredFields": ["nick","mail"],
                     "visitor": true,
                     "recordIP": true
@@ -586,7 +586,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var wechat = "wxp://f2f0GVDmWd_E8KC9N3DBtSgpUHzwRtcjh3ag";
                 var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=1329707185&ac=CAEQsfGG-gQYi7ic_wU%3D_xxx_sign&n=%E5%B0%8F%E8%83%96&f=wallet&chInfo=ch_share__chsub_CopyLink";
                 var alipay = "https://qr.alipay.com/fkx19635qktlponz80kwha1?t=1608981563953";
-                var paypal = "";
                 var multilingual = false;
                 var branding = false;
                 var title = "选择你的支付方式";
