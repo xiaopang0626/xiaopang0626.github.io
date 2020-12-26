@@ -1,31 +1,27 @@
-title: 小胖的博客
-description: 小胖的个人博客
+title: 小胖的博客! # name of the site
+author: 小胖 # name of site's author
+email: wxy1329707185@gmail.com # email of site's author
+url: https://xiaopang0626.github.io # root address of the site
+baseurl: "/no-style-please" # subpath of the site, e.g. "/blog"
+description: > # description of the site (multiple lines allowed)
+  A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
-theme: null
+permalink: /:slug.html
 
-# debug:
-#   compress: true
-#   dist: false
-#   shortcodes: true
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
-readme_index:
-  with_frontmatter: true
+theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
 
 plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-
-exclude:
-  - Makefile
-  - CNAME
-  - LICENSE
-  - update.sh
-  - Gemfile
-  - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+  - jekyll-feed
+  - jekyll-seo-tag
