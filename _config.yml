@@ -386,25 +386,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     jekyll-theme-WuK
                   </a>
                 </div>
-              - | # Copyright声明
-                <div>
-                  <i class="fas fa-copyright fa-fw"></i>
-                  2017-2020 WuK
-                </div>
-              - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fas fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="http://www.beian.gov.cn/img/new/gongan.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
-                </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
@@ -538,8 +519,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 for(let x of document.getElementsByClassName("v"))
                   new Valine({
                     "el": x,
-                    "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-                    "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+                    "appId": "MT6OrtOPFCYKO24dSNoeKvkl-gzGzoHsz",
+                    "appKey": "IyJmSAeFw3W3uOUefYvMaGot",
                     "placeholder": "在这里评论吧！填写邮箱可以获得 Gravatar 头像和回复通知哦",
                     "requiredFields": ["nick","mail"],
                     "visitor": true,
@@ -599,13 +580,13 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "WuK";
-                var profile = "i@wu-kan.cn";
+                var myname = "xp";
+                var profile = "https://xiaopang0626.github.io/";
                 var usage = "payment";
-                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-                var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-                var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-                var paypal = "https://paypal.me/wukan0621";
+                var wechat = "wxp://f2f0GVDmWd_E8KC9N3DBtSgpUHzwRtcjh3ag";
+                var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=1329707185&ac=CAEQsfGG-gQYi7ic_wU%3D_xxx_sign&n=%E5%B0%8F%E8%83%96&f=wallet&chInfo=ch_share__chsub_CopyLink";
+                var alipay = "https://qr.alipay.com/fkx19635qktlponz80kwha1?t=1608981563953";
+                var paypal = "";
                 var multilingual = false;
                 var branding = false;
                 var title = "选择你的支付方式";
