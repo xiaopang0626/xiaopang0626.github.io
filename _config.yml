@@ -580,7 +580,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "xp";
+                var myname = "小胖";
                 var profile = "https://xiaopang0626.github.io/";
                 var usage = "payment";
                 var wechat = "wxp://f2f0GVDmWd_E8KC9N3DBtSgpUHzwRtcjh3ag";
